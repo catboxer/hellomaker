@@ -1887,8 +1887,28 @@ figcaption {
     line-height: 20px;
   }
 }
-		
 .text-span {	
   color: #e75607;	
 }
+div.clients a {
+  box-shadow: none;
+  justify-content: center;
+}
+img.client-logo {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+}
+.clients {
+  padding-top: 32px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+grid-gap: 32px;
+align-items: center;
 
+}
+@media screen and (max-width: 600px) {
+  .clients {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
