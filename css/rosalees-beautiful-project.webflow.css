@@ -650,6 +650,16 @@ figcaption {
   background-position: 0px 0px;
   background-size: auto;
 }
+.wrapper.babywit {
+  background-image: url('../images/babywit.jpg');
+  background-position: 0px 0px;
+  background-size: auto;
+}
+.wrapper.modunions {
+  background-image: url('../images/modunions-screen.jpg');
+  background-position: 0px 0px;
+  background-size: auto;
+}
 
 .wrapper.artout {
   background-image: url('../images/jennifer-griffin-nbgoXSKOIYM-unsplash.jpg');
